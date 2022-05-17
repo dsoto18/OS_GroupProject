@@ -1,0 +1,38 @@
+==========================================================================
+Names:      Fahad Alodhaibi, Jeniah Richbow, Diego Soto, Laura Shelly, Britney Whittington
+Date:       14 May 2022
+Assignment: Operating Systems (COSC COSC 439) Memory Management Simulation
+==========================================================================
+
+Build Instructions: Makefile included
+
+Run Instructions In Terminal:
+1. javac Main.java 
+2. java Main
+3. Select which algorithm you'd like to use
+4. Select which input file you'd like to use
+5. Hit 0 to exit
+
+Submitted Files:
+ - Main.java: 
+     Main entry point for simulator.
+ - Externals.java:
+     Contains commonly-used constants and functions
+ - InputFileParser.java: 
+     Reads in a .txt file and outputs a list of Processes
+ - Process.java: 
+     Models a process in memory
+ - MemorySimulatorBase.java: 
+     Contains functionality shared by all memory management strategies
+ - FirstFitMemorySimulator.java:
+     Employs a first-fit memory management strategy
+ - BestFitMemorySimulator.java
+     Employs a best-fit memory management strategy
+ - NextFitMemorySimulator.java
+     Employs a next-fit memory management strategy
+ - WorstFitMemorySimulator.java
+     Employs a worst-fit memory management strategy
+ - input.txt
+     Sample input data
+ - javadoc/
+     JavaDoc Documentation generated for all source files
